@@ -13,7 +13,6 @@ router.get('/', function (req, res, next) {
 });
 
 app.use(router);
-var app = express();
 
 var appData = require('./data.json');
 var seller = appData.seller;
