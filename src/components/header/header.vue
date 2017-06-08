@@ -238,7 +238,7 @@
             font-weight: 700
             line-height: 16px
             text-align: center
-            color: rgb(255, 255, 255)
+            color: #fff
           .star-wrapper
             padding: 2px 0
             margin: 16px auto 28px auto
