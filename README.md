@@ -1,27 +1,35 @@
-# sell
+# vue-sell
 
-> sell app
+## 项目技术架构
 
-## Build Setup
+* `Vue.js 2.0`
 
-``` bash
-# install dependencies
-npm install
+* `Vue-cli`
 
-# serve with hot reload at localhost:8080
-npm run dev
+* `Vue-router`
 
-# build for production with minification
-npm run build
+* `Vue-resource`
 
-# run unit tests
-npm run unit
+* `es6 + eslint`
 
-# run e2e tests
-npm run e2e
+* `stylus`
 
-# run all tests
-npm test
-```
+* `webpack`
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+* `第三方js库 better-scroll`
+
+* `组件化、模块化`
+
+* `移动端开发常用的技巧 ` 
+
+ 1.  `flex布局`  
+ 
+ 2.  `移动端1px边框的实现`  
+ 
+ 3.  `css sticky footer布局`  
+ 
+ 4.  `图片默认占位技巧` 
+ 
+ 5.  `媒体查询适用小屏幕手机`
+ 
+ 6.  `基于HTML5的localStorage的移动端通用数据存取`
