@@ -2,23 +2,23 @@
 
 ## 项目技术架构
 
-* `Vue.js 2.0`
+* Vue.js 2.0
 
-* `Vue-cli`
+* Vue-cli
 
-* `Vue-router`
+* Vue-router
 
-* `Vue-resource`
+* Vue-resource
 
-* `es6 + eslint`
+* es6 + eslint
 
-* `stylus`
+* stylus
 
-* `webpack`
+* webpack
 
-* `第三方js库 better-scroll`
+* 第三方js库 better-scroll
 
-* `移动端开发常用的技巧 ` 
+* 移动端开发常用的技巧  
 
  1.  `flex布局`  
  
