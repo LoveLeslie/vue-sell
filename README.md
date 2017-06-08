@@ -8,7 +8,7 @@
 
 ## 项目技术架构
 
-* vue.js 2.0
+* vue.js 
 
 * vue-cli
 
