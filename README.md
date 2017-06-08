@@ -30,4 +30,4 @@
  
  5.  `媒体查询适用小屏幕手机`
  
- 6.  `基于HTML5的localStorage的移动端通用数据存取`
+ 6.  `基于HTML5的localStorage的移动端通用数据存取 ... ...`
