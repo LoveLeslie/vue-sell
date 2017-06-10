@@ -55,9 +55,9 @@
 <script type="text/ecmascript-6">
   import BScroll from 'better-scroll';
   import { formatDate } from '../../common/js/date.js';
-  import star from 'components/star/star.vue';
-  import split from 'components/split/split.vue';
-  import ratingselect from 'components/ratingselect/ratingselect.vue';
+  import Star from 'components/star/star.vue';
+  import Split from 'components/split/split.vue';
+  import Ratingselect from 'components/ratingselect/ratingselect.vue';
 
   const ALL = 2;
   const ERR_OK = 0;
@@ -119,16 +119,16 @@
       }
     },
     components: {
-      star,
-      split,
-      ratingselect
+      Star,
+      Split,
+      Ratingselect
     }
   };
 </script>
 
 <style lang="stylus" rel="stylesheet">
 
-  @import "../../common/stylus/mixin.styl"
+  @import "~common/stylus/mixin.styl"
 
   .ratings
     position: absolute

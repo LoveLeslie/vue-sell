@@ -60,9 +60,9 @@
 <script type="text/ecmascript-6">
   import Vue from 'vue';
   import { formatDate } from '../../common/js/date.js';
-  import cartcontrol from 'components/cartcontrol/cartcontrol.vue';
-  import split from 'components/split/split.vue';
-  import ratingselect from 'components/ratingselect/ratingselect.vue';
+  import Cartcontrol from 'components/cartcontrol/cartcontrol.vue';
+  import Split from 'components/split/split.vue';
+  import Ratingselect from 'components/ratingselect/ratingselect.vue';
   import BScroll from 'better-scroll';
 
   const ALL = 2;
@@ -147,15 +147,15 @@
       }
     },
     components: {
-      cartcontrol,
-      split,
-      ratingselect
+      Cartcontrol,
+      Split,
+      Ratingselect
     }
   };
 </script>
 
 <style lang="stylus" rel="stylesheet">
-  @import "../../common/stylus/mixin.styl"
+  @import "~common/stylus/mixin.styl"
 
   .food
     position: fixed

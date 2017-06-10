@@ -69,8 +69,8 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import star from 'components/star/star.vue';
-  import split from 'components/split/split.vue';
+  import Star from 'components/star/star.vue';
+  import Split from 'components/split/split.vue';
   import BScroll from 'better-scroll';
   import { saveTOLocal, loadFormLocal } from '../../common/js/store.js';
 
@@ -146,15 +146,15 @@
       }
     },
     components: {
-      star,
-      split
+      Star,
+      Split
     }
   };
 </script>
 
 <style lang="stylus" rel="stylesheet">
 
-  @import "../../common/stylus/mixin.styl"
+  @import "~common/stylus/mixin.styl"
 
   .seller
     position: absolute

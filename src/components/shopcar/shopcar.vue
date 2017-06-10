@@ -54,7 +54,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import cartcontrol from 'components/cartcontrol/cartcontrol.vue';
+  import Cartcontrol from 'components/cartcontrol/cartcontrol';
   import BScroll from 'better-scroll';
 
   export default {
@@ -229,13 +229,13 @@
       }
     },
     components: {
-      cartcontrol
+      Cartcontrol
     }
   };
 </script>
 
 <style lang="stylus" rel="stylesheet">
-  @import "../../common/stylus/mixin.styl"
+  @import "~common/stylus/mixin.styl"
 
   .shopcar
     position: fixed

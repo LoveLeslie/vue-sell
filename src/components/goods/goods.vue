@@ -41,9 +41,9 @@
 
 <script type="text/ecmascript-6">
   import BScroll from 'better-scroll';
-  import shopcar from 'components/shopcar/shopcar.vue';
-  import cartcontrol from 'components/cartcontrol/cartcontrol.vue';
-  import food from 'components/food/food.vue';
+  import Shopcar from 'components/shopcar/shopcar.vue';
+  import Cartcontrol from 'components/cartcontrol/cartcontrol.vue';
+  import Food from 'components/food/food.vue';
 
   const ERR_OK = 0;
 
@@ -146,15 +146,15 @@
       }
     },
     components: {
-      shopcar,
-      cartcontrol,
-      food
+      Shopcar,
+      Cartcontrol,
+      Food
     }
   };
 </script>
 
 <style lang="stylus" rel="stylesheet">
-  @import "../../common/stylus/mixin.styl"
+  @import "~common/stylus/mixin.styl"
 
   .goods
     display: flex

@@ -68,7 +68,7 @@
 </template>
 
 <script type="text/ecmascript-6">
-  import star from 'components/star/star';
+  import Star from 'components/star/star';
 
   export default{
     props: {
@@ -93,13 +93,13 @@
       this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee'];
     },
     components: {
-      star
+      Star
     }
   };
 </script>
 
 <style lang="stylus" rel="stylesheet">
-  @import "../../common/stylus/mixin.styl"
+  @import "~common/stylus/mixin.styl"
   .header
     position: relative
     overflow: hidden
